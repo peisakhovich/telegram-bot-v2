@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+print("AZURE VERSION 999")
 app = FastAPI()
 
 @app.get("/")
